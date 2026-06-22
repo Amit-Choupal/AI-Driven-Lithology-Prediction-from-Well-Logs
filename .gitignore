@@ -1,0 +1,17 @@
+# Ignore python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local notebook checkpoints if you used Jupyter
+.ipynb_checkpoints/
+
+# Ignore the heavy dataset file (Optional but recommended if it's large)
+North_Sea_WellLog.csv
+
+# Ignore local configuration and virtual environments
+.venv/
+env/
+venv/
+.ENV/
